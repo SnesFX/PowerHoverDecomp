@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="Cutscene.ThereAreRumours" xml:space="preserve">
+		<value>感染した者たちが砂漠で
+何かを築いているという噂がある。
+休むことなく働き続ける
+個性を失った集合精神。
+何が、誰が彼らを駆り立てるのかは知られていない...</value>
+	</data>
+	<data name="Cutscene1.AndJustLikeThat" xml:space="preserve">
+		<value>ちょうどそんな感じで、
+何かが村から
+電力を奪った。
+そして私たちは
+暗闇に取り残された</value>
+	</data>
+	<data name="Cutscene1.Dark" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Cutscene1.ElectricityIsAPower" xml:space="preserve">
+		<value>ここの物はすべて
+電気で動いている...</value>
+	</data>
+	<data name="Cutscene1.TapedBegins" xml:space="preserve">
+		<value>ブロードキャストが始まる...</value>
+	</data>
+	<data name="Cutscene1.TrailIsStillHot" xml:space="preserve">
+		<value>道はまだ熱い。
+
+その道をたどって
+
+電力を取り戻し、
+
+村を復興しよう...</value>
+	</data>
+	<data name="Cutscene2.DistantWind" xml:space="preserve">
+		<value>遠くの風がロボットに
+感染するウイルスの
+話を運んできた...</value>
+	</data>
+	<data name="Cutscene2.EventuallyStories" xml:space="preserve">
+		<value>やがてその話も聞かれなくなった...</value>
+	</data>
+	<data name="Cutscene2.InfectedWouldHalt" xml:space="preserve">
+		<value>感染した者は相互作用を停止し、
+エネルギーをため始めるだろう。</value>
+	</data>
+	<data name="Cutscene2.ThenOnebyOne" xml:space="preserve">
+		<value>そして一つ、また一つと
+消えていった...</value>
+	</data>
+	<data name="Cutscene3.InfectedBuilding" xml:space="preserve">
+		<value>感染した者たちが砂漠で何かを築いている...</value>
+	</data>
+	<data name="Cutscene3.Rumors" xml:space="preserve">
+		<value>それは悪い噂を運んできた...</value>
+	</data>
+	<data name="Cutscene3.Unknown" xml:space="preserve">
+		<value>何か、何のためか、それは不明である...</value>
+	</data>
+	<data name="Cutscene3.VillageRestored" xml:space="preserve">
+		<value>村は復興され、
+暗闇は押しのけられた。</value>
+	</data>
+	<data name="Cutscene3.Wind" xml:space="preserve">
+		<value>風が戻ってきた...</value>
+	</data>
+	<data name="Cutscene4.APortal" xml:space="preserve">
+		<value>ポータルは別の世界へ。</value>
+	</data>
+	<data name="Cutscene4.LikeALight" xml:space="preserve">
+		<value>ポータルは電球のように
+消されてしまった...</value>
+	</data>
+	<data name="Cutscene4.MaybeOne" xml:space="preserve">
+		<value>誰かがまたそのスイッチを
+入れる日が来るかもしれない...</value>
+	</data>
+	<data name="Cutscene4.onebyone" xml:space="preserve">
+		<value>一つずつ
+
+感染した者が
+
+ポータルに
+
+入っていった</value>
+	</data>
+	<data name="Cutscene4.TheDevice" xml:space="preserve">
+		<value>デバイス。</value>
+	</data>
+	<data name="Ingame.Music" xml:space="preserve">
+		<value>音楽</value>
+	</data>
+	<data name="Ingame.No" xml:space="preserve">
+		<value>いいえ</value>
+	</data>
+	<data name="Ingame.UseBackup" xml:space="preserve">
+		<value>バックアップを使いますか？</value>
+	</data>
+	<data name="Ingame.Yes" xml:space="preserve">
+		<value>はい</value>
+	</data>
+	<data name="IngameUI.Bonus" xml:space="preserve">
+		<value>レベルボーナス</value>
+	</data>
+	<data name="IngameUI.ChallengeTarget" xml:space="preserve">
+		<value>チャレンジターゲット</value>
+	</data>
+	<data name="IngameUI.Endscreen.Notification.Passed" xml:space="preserve">
+		<value>パス</value>
+	</data>
+	<data name="IngameUI.Endscreen.Notification.StageUnlocked" xml:space="preserve">
+		<value>新ステージ解除</value>
+	</data>
+	<data name="IngameUI.GameOver" xml:space="preserve">
+		<value>ゲームオーバー</value>
+	</data>
+	<data name="IngameUI.Level" xml:space="preserve">
+		<value>レベル</value>
+	</data>
+	<data name="IngameUI.LifeSavers" xml:space="preserve">
+		<value>バックアップ</value>
+	</data>
+	<data name="IngameUI.LifeSaversEmpty" xml:space="preserve">
+		<value>バックアップがありません</value>
+	</data>
+	<data name="IngameUI.NewHighScore" xml:space="preserve">
+		<value>最高スコア！</value>
+	</data>
+	<data name="IngameUI.NextLevel" xml:space="preserve">
+		<value>次のレベル</value>
+	</data>
+	<data name="IngameUI.Passed" xml:space="preserve">
+		<value>パス！</value>
+	</data>
+	<data name="IngameUI.Paused" xml:space="preserve">
+		<value>一時停止中</value>
+	</data>
+	<data name="IngameUI.Score" xml:space="preserve">
+		<value>スコア</value>
+	</data>
+	<data name="IngameUI.TapToContinue" xml:space="preserve">
+		<value>タップして続行</value>
+	</data>
+	<data name="Leaderboards.Boss" xml:space="preserve">
+		<value>ボス</value>
+	</data>
+	<data name="[type=FONT]LocaleFont" xml:space="preserve">
+		<value>override=de</value>
+	</data>
+	<data name="MainMenu.Achievement" xml:space="preserve">
+		<value>成績</value>
+	</data>
+	<data name="MainMenu.AchievementAchieved" xml:space="preserve">
+		<value>達成</value>
+	</data>
+	<data name="MainMenu.AchievementAvoid" xml:space="preserve">
+		<value>回避</value>
+	</data>
+	<data name="MainMenu.AchievementAvoidLights" xml:space="preserve">
+		<value>ライト回避</value>
+	</data>
+	<data name="MainMenu.AchievementBigSpender" xml:space="preserve">
+		<value>浪費家</value>
+	</data>
+	<data name="MainMenu.AchievementBoss5000" xml:space="preserve">
+		<value>ボス5000</value>
+	</data>
+	<data name="MainMenu.AchievementBoss5000Desc" xml:space="preserve">
+		<value>全ボス 5000＋</value>
+	</data>
+	<data name="MainMenu.AchievementBreakStuff" xml:space="preserve">
+		<value>壊れた物</value>
+	</data>
+	<data name="MainMenu.AchievementChapter2" xml:space="preserve">
+		<value>チャプター 2</value>
+	</data>
+	<data name="MainMenu.AchievementChapter2Desc" xml:space="preserve">
+		<value>チャプター2のロックを解除</value>
+	</data>
+	<data name="MainMenu.AchievementCollectablesCollected" xml:space="preserve">
+		<value>失ったライフ</value>
+	</data>
+	<data name="MainMenu.AchievementCollector" xml:space="preserve">
+		<value>コレクター</value>
+	</data>
+	<data name="MainMenu.AchievementDiamondsCollected" xml:space="preserve">
+		<value>%電力</value>
+	</data>
+	<data name="MainMenu.AchievementDucky" xml:space="preserve">
+		<value>ダックに出会う</value>
+	</data>
+	<data name="MainMenu.AchievementDuckyDesc" xml:space="preserve">
+		<value>ガーガー</value>
+	</data>
+	<data name="MainMenu.AchievementEaten" xml:space="preserve">
+		<value>食べられた数</value>
+	</data>
+	<data name="MainMenu.AchievementExplorer" xml:space="preserve">
+		<value>探検</value>
+	</data>
+	<data name="MainMenu.AchievementLifeHoarder" xml:space="preserve">
+		<value>ライフをため込む人</value>
+	</data>
+	<data name="MainMenu.AchievementLives" xml:space="preserve">
+		<value>ライフ</value>
+	</data>
+	<data name="MainMenu.AchievementLongRun" xml:space="preserve">
+		<value>私にとってはチャレンジではありません</value>
+	</data>
+	<data name="MainMenu.AchievementLongRunTittle" xml:space="preserve">
+		<value>ロングラン</value>
+	</data>
+	<data name="MainMenu.AchievementPowerUp" xml:space="preserve">
+		<value>パワーアップ</value>
+	</data>
+	<data name="MainMenu.Achievements" xml:space="preserve">
+		<value>成果</value>
+	</data>
+	<data name="MainMenu.AchievementUnscathed" xml:space="preserve">
+		<value>無傷</value>
+	</data>
+	<data name="MainMenu.AchievementWormFood" xml:space="preserve">
+		<value>ワームフード</value>
+	</data>
+	<data name="MainMenu.Activate" xml:space="preserve">
+		<value>アクティベート</value>
+	</data>
+	<data name="MainMenu.Active" xml:space="preserve">
+		<value>アクティブ</value>
+	</data>
+	<data name="MainMenu.AdUnlock" xml:space="preserve">
+		<value>ロック解除しますか？</value>
+	</data>
+	<data name="MainMenu.AreYouStuck" xml:space="preserve">
+		<value>立ち往生していませんか？
+今すぐすべてのレベルにアクセスしよう！</value>
+	</data>
+	<data name="MainMenu.Back" xml:space="preserve">
+		<value>戻る</value>
+	</data>
+	<data name="MainMenu.Best" xml:space="preserve">
+		<value>ベスト</value>
+	</data>
+	<data name="MainMenu.Bolts" xml:space="preserve">
+		<value>ボルト</value>
+	</data>
+	<data name="MainMenu.BreakStuff" xml:space="preserve">
+		<value>壊れたアイテム</value>
+	</data>
+	<data name="MainMenu.Buy" xml:space="preserve">
+		<value>購入！</value>
+	</data>
+	<data name="MainMenu.ChallengeDescriptionBreakables" xml:space="preserve">
+		<value>ミスしないようにガラスを全部割ります</value>
+	</data>
+	<data name="MainMenu.ChallengeDescriptionCollect" xml:space="preserve">
+		<value>一度のランでバッテリーを集めます</value>
+	</data>
+	<data name="MainMenu.ChallengeDescriptionDistance" xml:space="preserve">
+		<value>長距離ランをします</value>
+	</data>
+	<data name="MainMenu.ChallengeInfoMissingBolts" xml:space="preserve">
+		<value>ボルトが不足しています。チャレンジに挑戦してボルトをゲットしよう</value>
+	</data>
+	<data name="MainMenu.ChallengeLocked" xml:space="preserve">
+		<value>チャレンジはロックされています</value>
+	</data>
+	<data name="MainMenu.Challenges" xml:space="preserve">
+		<value>チャレンジ</value>
+	</data>
+	<data name="MainMenu.Chapter" xml:space="preserve">
+		<value>チャプター</value>
+	</data>
+	<data name="MainMenu.Chapter2Locked" xml:space="preserve">
+		<value>チャプター2 - ロックされています</value>
+	</data>
+	<data name="MainMenu.Chapter2Locked2" xml:space="preserve">
+		<value>（最初のチャプターをコンプリートしてロックを解除）</value>
+	</data>
+	<data name="MainMenu.ChapterGoto" xml:space="preserve">
+		<value>チャプター</value>
+	</data>
+	<data name="MainMenu.Characters" xml:space="preserve">
+		<value>キャラクター</value>
+	</data>
+	<data name="MainMenu.CoinsCollected" xml:space="preserve">
+		<value>バッテリー</value>
+	</data>
+	<data name="MainMenu.Completed" xml:space="preserve">
+		<value>完了</value>
+	</data>
+	<data name="MainMenu.Connect" xml:space="preserve">
+		<value>接続</value>
+	</data>
+	<data name="MainMenu.ConnectionLost" xml:space="preserve">
+		<value>接続が切断されました。接続を確認するか、後で再試行してください！</value>
+	</data>
+	<data name="MainMenu.Continue" xml:space="preserve">
+		<value>続行</value>
+	</data>
+	<data name="MainMenu.ContinueCount" xml:space="preserve">
+		<value>パックアップ</value>
+	</data>
+	<data name="MainMenu.Credits" xml:space="preserve">
+		<value>クレジット</value>
+	</data>
+	<data name="MainMenu.DeathCount" xml:space="preserve">
+		<value>死亡数</value>
+	</data>
+	<data name="MainMenu.Disconnect" xml:space="preserve">
+		<value>切断</value>
+	</data>
+	<data name="MainMenu.Effects" xml:space="preserve">
+		<value>サウンドエフェクト</value>
+	</data>
+	<data name="MainMenu.Exit" xml:space="preserve">
+		<value>出口</value>
+	</data>
+	<data name="MainMenu.Follow" xml:space="preserve">
+		<value>フォロー</value>
+	</data>
+	<data name="MainMenu.ForTheChallenge" xml:space="preserve">
+		<value>ボーナス：チャレンジモードの2万ボルト！</value>
+	</data>
+	<data name="MainMenu.Free" xml:space="preserve">
+		<value>無料</value>
+	</data>
+	<data name="MainMenu.FullGame" xml:space="preserve">
+		<value>全ゲーム</value>
+	</data>
+	<data name="MainMenu.FullGameUnlocked" xml:space="preserve">
+		<value>全ゲームロック解除！</value>
+	</data>
+	<data name="MainMenu.GameLoaded" xml:space="preserve">
+		<value>ゲームがロードされました</value>
+	</data>
+	<data name="MainMenu.GameSaved" xml:space="preserve">
+		<value>進捗保存</value>
+	</data>
+	<data name="MainMenu.Language" xml:space="preserve">
+		<value>言語</value>
+	</data>
+	<data name="MainMenu.Locked" xml:space="preserve">
+		<value>ロック中</value>
+	</data>
+	<data name="MainMenu.Map.TotalEnergyRestored" xml:space="preserve">
+		<value>エネルギー復旧合計</value>
+	</data>
+	<data name="MainMenu.Music" xml:space="preserve">
+		<value>音楽</value>
+	</data>
+	<data name="MainMenu.NA" xml:space="preserve">
+		<value>該当なし</value>
+	</data>
+	<data name="MainMenu.NextTarget" xml:space="preserve">
+		<value>レベルターゲット</value>
+	</data>
+	<data name="MainMenu.NoAds" xml:space="preserve">
+		<value>広告なし</value>
+	</data>
+	<data name="MainMenu.Notification.CollectMoreDiamonds" xml:space="preserve">
+		<value>停電中のビルを復旧して村に電力を追加！</value>
+	</data>
+	<data name="MainMenu.Notification.PassPreviousBoss" xml:space="preserve">
+		<value>ロック解除するには、前のボスレベルで1500mをパスします</value>
+	</data>
+	<data name="MainMenu.Notification.PassPreviousStageFirst" xml:space="preserve">
+		<value>まず前のステージをパスします</value>
+	</data>
+	<data name="MainMenu.Off" xml:space="preserve">
+		<value>オフ</value>
+	</data>
+	<data name="MainMenu.On" xml:space="preserve">
+		<value>オン</value>
+	</data>
+	<data name="MainMenu.OrWait" xml:space="preserve">
+		<value>それとも待ち</value>
+	</data>
+	<data name="MainMenu.OutOfTries" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MainMenu.Play" xml:space="preserve">
+		<value>プレイ</value>
+	</data>
+	<data name="MainMenu.PlayTutorial" xml:space="preserve">
+		<value>チュートリアルを再生</value>
+	</data>
+	<data name="MainMenu.Powered" xml:space="preserve">
+		<value>電力供給</value>
+	</data>
+	<data name="MainMenu.Quit" xml:space="preserve">
+		<value>Power Hoverをやめますか？</value>
+	</data>
+	<data name="MainMenu.RateUs" xml:space="preserve">
+		<value>Rate Us!</value>
+	</data>
+	<data name="MainMenu.RateUsAskLater" xml:space="preserve">
+		<value>Ask me later</value>
+	</data>
+	<data name="MainMenu.RateUsHeader" xml:space="preserve">
+		<value>Like this game?</value>
+	</data>
+	<data name="MainMenu.RateUsNoThanks" xml:space="preserve">
+		<value>No, thanks</value>
+	</data>
+	<data name="MainMenu.RateUsRate" xml:space="preserve">
+		<value>今すぐ評価する</value>
+	</data>
+	<data name="MainMenu.RateUsText" xml:space="preserve">
+		<value>ぜひPower Hoverの評価にご協力ください！</value>
+	</data>
+	<data name="MainMenu.SavedGames" xml:space="preserve">
+		<value>保存されたゲーム</value>
+	</data>
+	<data name="MainMenu.RestorePurchases" xml:space="preserve">
+		<value>購入を復元します。</value>
+	</data>
+	<data name="MainMenu.Settings" xml:space="preserve">
+		<value>設定</value>
+	</data>
+	<data name="MainMenu.Start" xml:space="preserve">
+		<value>スタート</value>
+	</data>
+	<data name="MainMenu.Statistics" xml:space="preserve">
+		<value>統計値</value>
+	</data>
+	<data name="MainMenu.Stats" xml:space="preserve">
+		<value>[統計]</value>
+	</data>
+	<data name="MainMenu.Store" xml:space="preserve">
+		<value>店</value>
+	</data>
+	<data name="MainMenu.Stuck" xml:space="preserve">
+		<value>立ち往生？</value>
+	</data>
+	<data name="MainMenu.ThankYou" xml:space="preserve">
+		<value>ありがとうございます！</value>
+	</data>
+	<data name="MainMenu.TimePlayed" xml:space="preserve">
+		<value>プレイ時間</value>
+	</data>
+	<data name="MainMenu.ToBeContinued" xml:space="preserve">
+		<value>つづく ...</value>
+	</data>
+	<data name="MainMenu.TotalScore" xml:space="preserve">
+		<value>合計KWH</value>
+	</data>
+	<data name="MainMenu.Tries" xml:space="preserve">
+		<value>トライ数</value>
+	</data>
+	<data name="MainMenu.TriesLeft" xml:space="preserve">
+		<value>残りトライ数</value>
+	</data>
+	<data name="MainMenu.Unlock" xml:space="preserve">
+		<value>ロック解除しますか？</value>
+	</data>
+	<data name="MainMenu.UnlockFullGame" xml:space="preserve">
+		<value>全ゲームをロック解除</value>
+	</data>
+	<data name="MainMenu.UnlockNow" xml:space="preserve">
+		<value>今すぐロック解除！</value>
+	</data>
+	<data name="MainMenu.UnlockWith" xml:space="preserve">
+		<value>次でロック解除：</value>
+	</data>
+	<data name="MainMenu.WatchVideo" xml:space="preserve">
+		<value>ビデオを見る</value>
+	</data>
+	<data name="MainMenu.WorldRank" xml:space="preserve">
+		<value>ランク</value>
+	</data>
+	<data name="Map.EnergyItem.CharacterDescription" xml:space="preserve">
+		<value>新キャラをロック解除！</value>
+	</data>
+	<data name="Map.EnergyItem.CharacterTitle" xml:space="preserve">
+		<value>ロボモバイル</value>
+	</data>
+	<data name="Map.EnergyItem.LifeGeneratorDescription" xml:space="preserve">
+		<value>時々追加のライフを集めます</value>
+	</data>
+	<data name="Map.EnergyItem.LifeGeneratorTitle" xml:space="preserve">
+		<value>ライフジェネレータ</value>
+	</data>
+	<data name="Map.EnergyItem.LifesaverDescription" xml:space="preserve">
+		<value>+1 バックアップ</value>
+	</data>
+	<data name="Map.EnergyItem.LifesaverTitle" xml:space="preserve">
+		<value>ゲームオーバー後も続行！</value>
+	</data>
+	<data name="Map.EnergyItem.MagnetDescription" xml:space="preserve">
+		<value>バッテリーマグネットへ電力を追加します！</value>
+	</data>
+	<data name="Map.EnergyItem.MagnetTitle" xml:space="preserve">
+		<value>マグネットブースト</value>
+	</data>
+	<data name="Map.EnergyItem.StartLifeDescription" xml:space="preserve">
+		<value>ベースライフ数を1つ増やします。</value>
+	</data>
+	<data name="Map.EnergyItem.StartLifeTitle" xml:space="preserve">
+		<value>ベースライフ +1</value>
+	</data>
+	<data name="Map.EnergyItem.TutorialDescription" xml:space="preserve">
+		<value>これに電力を供給してライフを1個ゲット！</value>
+	</data>
+	<data name="Map.EnergyItem.TutorialTitle" xml:space="preserve">
+		<value>ロボビレッジへようこそ</value>
+	</data>
+	<data name="Map.ObjectTip.Character" xml:space="preserve">
+		<value>アクティベートされた新ロボットは、[+] メニューから選択します</value>
+	</data>
+	<data name="Map.ObjectTip.LifeGenerator" xml:space="preserve">
+		<value>追加されるライフが生成されています。お待ちください...</value>
+	</data>
+	<data name="Map.ObjectTip.Lifesaver" xml:space="preserve">
+		<value>これで続行できます。バックアップがあるといいね！</value>
+	</data>
+	<data name="Map.ObjectTip.Magnet" xml:space="preserve">
+		<value>バッテリーマグネットブースターでバッテリーをもっと簡単に集められます！</value>
+	</data>
+	<data name="Map.ObjectTip.StartLife" xml:space="preserve">
+		<value>始めからやり直す場合、ベースライフ数が増えます。</value>
+	</data>
+	<data name="PopUp.Next" xml:space="preserve">
+		<value>次へ</value>
+	</data>
+	<data name="PopUp.Ok" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="Tutorial.Boss.One" xml:space="preserve">
+		<value>これはボスステージです！次のステージに進むには、最低1000m生き残らなければなりません。</value>
+	</data>
+	<data name="Tutorial.Energy200" xml:space="preserve">
+		<value>すごい！村の合計電力が500kWhを超えました！
+最初のボスステージに行くために電力を供給し続けよう！</value>
+	</data>
+	<data name="Tutorial.EnergyItem" xml:space="preserve">
+		<value>村でアイテムに電力を供給して情報入手とアップグレード！</value>
+	</data>
+	<data name="Tutorial.EnergyItem.Collected" xml:space="preserve">
+		<value>それはステキなサインですね！情報入手とアップグレードのために電力供給するのを忘れないで！</value>
+	</data>
+	<data name="Tutorial.KillInfo.One" xml:space="preserve">
+		<value>おっと！クラッシュ！\n左上隅のハート形のアイテムが見えますか？\nそれがあなたのライフ数です。</value>
+	</data>
+	<data name="Tutorial.KillInfo.Two" xml:space="preserve">
+		<value>ライフがまだ残っている場合は、最後にアクティベートしたチェックポイントからスタートします。</value>
+	</data>
+	<data name="Tutorial.OffScreenInfo" xml:space="preserve">
+		<value>カメラ内にいてください！</value>
+	</data>
+	<data name="Tutorial.One" xml:space="preserve">
+		<value>泥棒がバッテリーを落としてる。道をたどってエネルギーを集めよう！</value>
+	</data>
+	<data name="Tutorial.Two" xml:space="preserve">
+		<value>泥棒がいる！追いついてしまった！バックパックから何か変な物が落ちてこないか気を付けよう！</value>
+	</data>
+	<data name="TutorialLevel.Completed" xml:space="preserve">
+		<value>お見事！今度はあのポータブルミュージックプレイヤーまで行ってもっと情報を集めよう！</value>
+	</data>
+	<data name="TutorialLevel.Five" xml:space="preserve">
+		<value>レールのグラインドはブルーだけど楽しい！レールに乗ると自動的にグラインドします！</value>
+	</data>
+	<data name="TutorialLevel.Four" xml:space="preserve">
+		<value>傾斜台から自動的にジャンプして降ります。前方にあるバッテリーを集めよう！</value>
+	</data>
+	<data name="TutorialLevel.One" xml:space="preserve">
+		<value>左 [l] または右 [r] を押して動き回ります。</value>
+	</data>
+	<data name="TutorialLevel.Three" xml:space="preserve">
+		<value>バッテリーを見たときはいつでも集めます。</value>
+	</data>
+	<data name="TutorialLevel.Two" xml:space="preserve">
+		<value>チェックポイントへ向かう道を見つけます。壁に注意して！</value>
+	</data>
+	<data name="TutorialLevel.Welcome" xml:space="preserve">
+		<value>Power Hoverへようこそ！スタートのお手伝いをします！レッツゴー！</value>
+	</data>
+	<data name="UpgradeMenu.Lives" xml:space="preserve">
+		<value>ライフ</value>
+	</data>
+	<data name="UpgradeMenu.LiveSavers" xml:space="preserve">
+		<value>バックアップ</value>
+	</data>
+	<data name="UpgradeMenu.LivesOnContinue" xml:space="preserve">
+		<value>ベースライフ数</value>
+	</data>
+	<data name="UpgradeMenu.Magnet" xml:space="preserve">
+		<value>マグネット</value>
+	</data>
+	<data name="UpgradeMenu.Notification.NotEnoughtPoints" xml:space="preserve">
+		<value>エネルギーが足りない！レベルからもっとゲットしよう。</value>
+	</data>
+</root>

@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root><!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+	<data name="Cutscene.ThereAreRumours" xml:space="preserve">
+		<value>Il y a des rumeurs selon lesquelles les
+personnes infectées sont construire quelque
+chose dans l'esprit de la ruche du désert, 
+travaillant sans relâche, aveugle. 
+Ce qui ou qui accule est inconnu...</value>
+	</data>
+	<data name="Cutscene1.AndJustLikeThat" xml:space="preserve">
+		<value>Et juste comme ça,
+Quelque chose a pris toute la force
+du village,
+et nous a laissé dans l'obscurité</value>
+	</data>
+	<data name="Cutscene1.Dark" xml:space="preserve">
+		<value />
+	</data>
+	<data name="Cutscene1.ElectricityIsAPower" xml:space="preserve">
+		<value>L'électricité est une force qui 
+dirige tout ici...</value>
+	</data>
+	<data name="Cutscene1.TapedBegins" xml:space="preserve">
+		<value>L'émission commence...</value>
+	</data>
+	<data name="Cutscene1.TrailIsStillHot" xml:space="preserve">
+		<value>La trace est encore chaude,
+
+suivez-la,
+
+ramenez la force,
+
+restaurez le village...</value>
+	</data>
+	<data name="Cutscene2.DistantWind" xml:space="preserve">
+		<value>Un vent lointain a emporté
+Une histoire sur un virus
+Qui infecte des robots...</value>
+	</data>
+	<data name="Cutscene2.EventuallyStories" xml:space="preserve">
+		<value>Finalement aussi les histoires se sont arrêtées...</value>
+	</data>
+	<data name="Cutscene2.InfectedWouldHalt" xml:space="preserve">
+		<value>Les personnes infectées voudraient arrêter l'interaction
+et commencer à amasser de l'énergie</value>
+	</data>
+	<data name="Cutscene2.ThenOnebyOne" xml:space="preserve">
+		<value>Ensuite, une par une
+ils ont commencé à disparaître...</value>
+	</data>
+	<data name="Cutscene3.InfectedBuilding" xml:space="preserve">
+		<value>les infectées construisent quelque chose dans le désert...</value>
+	</data>
+	<data name="Cutscene3.Rumors" xml:space="preserve">
+		<value>il portait une mauvaise rumeur...</value>
+	</data>
+	<data name="Cutscene3.Unknown" xml:space="preserve">
+		<value>quoi ou pour quoi est inconnue...</value>
+	</data>
+	<data name="Cutscene3.VillageRestored" xml:space="preserve">
+		<value>Notre village est restauré, 
+l'obscurité a été mis de côté.</value>
+	</data>
+	<data name="Cutscene3.Wind" xml:space="preserve">
+		<value>Le vent est revenu...</value>
+	</data>
+	<data name="Cutscene4.APortal" xml:space="preserve">
+		<value>Un portail vers un autre monde.</value>
+	</data>
+	<data name="Cutscene4.LikeALight" xml:space="preserve">
+		<value>Comme lorsqu'on coupe la lumière,
+le portail s’éteignit derrière eux...</value>
+	</data>
+	<data name="Cutscene4.MaybeOne" xml:space="preserve">
+		<value>Peut-être qu'un jour quelqu'un
+actionnera l'interrupteur à nouveau...</value>
+	</data>
+	<data name="Cutscene4.onebyone" xml:space="preserve">
+		<value>Un par un,
+
+les infectés
+
+entrèrent
+
+dans le portail</value>
+	</data>
+	<data name="Cutscene4.TheDevice" xml:space="preserve">
+		<value>L'appareil.</value>
+	</data>
+	<data name="Ingame.Music" xml:space="preserve">
+		<value>Musique</value>
+	</data>
+	<data name="Ingame.No" xml:space="preserve">
+		<value>Non</value>
+	</data>
+	<data name="Ingame.UseBackup" xml:space="preserve">
+		<value>Sauvegarder?</value>
+	</data>
+	<data name="Ingame.Yes" xml:space="preserve">
+		<value>Oui</value>
+	</data>
+	<data name="IngameUI.Bonus" xml:space="preserve">
+		<value>Niveau bonus</value>
+	</data>
+	<data name="IngameUI.ChallengeTarget" xml:space="preserve">
+		<value>Cible à atteindre</value>
+	</data>
+	<data name="IngameUI.Endscreen.Notification.Passed" xml:space="preserve">
+		<value>Réussi</value>
+	</data>
+	<data name="IngameUI.Endscreen.Notification.StageUnlocked" xml:space="preserve">
+		<value>Nouvelle Étape Débloquée</value>
+	</data>
+	<data name="IngameUI.GameOver" xml:space="preserve">
+		<value>Jeu terminé !</value>
+	</data>
+	<data name="IngameUI.Level" xml:space="preserve">
+		<value>Niveau</value>
+	</data>
+	<data name="IngameUI.LifeSavers" xml:space="preserve">
+		<value>Sauvegarder</value>
+	</data>
+	<data name="IngameUI.LifeSaversEmpty" xml:space="preserve">
+		<value>Plus assez d'espace de sauvergade</value>
+	</data>
+	<data name="IngameUI.NewHighScore" xml:space="preserve">
+		<value>Meilleur score</value>
+	</data>
+	<data name="IngameUI.NextLevel" xml:space="preserve">
+		<value>Prochain niveau</value>
+	</data>
+	<data name="IngameUI.Passed" xml:space="preserve">
+		<value>Atteint !</value>
+	</data>
+	<data name="IngameUI.Paused" xml:space="preserve">
+		<value>En pause</value>
+	</data>
+	<data name="IngameUI.Score" xml:space="preserve">
+		<value>Score</value>
+	</data>
+	<data name="IngameUI.TapToContinue" xml:space="preserve">
+		<value>Taper pour continuer</value>
+	</data>
+	<data name="Leaderboards.Boss" xml:space="preserve">
+		<value>Patron</value>
+	</data>
+	<data name="[type=FONT]LocaleFont" xml:space="preserve">
+		<value>override=de</value>
+	</data>
+	<data name="MainMenu.Achievement" xml:space="preserve">
+		<value>Accomplissement</value>
+	</data>
+	<data name="MainMenu.AchievementAchieved" xml:space="preserve">
+		<value>Accompli</value>
+	</data>
+	<data name="MainMenu.AchievementAvoid" xml:space="preserve">
+		<value>Éviter</value>
+	</data>
+	<data name="MainMenu.AchievementAvoidLights" xml:space="preserve">
+		<value>Évitez les lumières</value>
+	</data>
+	<data name="MainMenu.AchievementBigSpender" xml:space="preserve">
+		<value>Flambeur</value>
+	</data>
+	<data name="MainMenu.AchievementBoss5000" xml:space="preserve">
+		<value>Patron 5000</value>
+	</data>
+	<data name="MainMenu.AchievementBoss5000Desc" xml:space="preserve">
+		<value>Tous les boss 5000+</value>
+	</data>
+	<data name="MainMenu.AchievementBreakStuff" xml:space="preserve">
+		<value>Casse des Choses</value>
+	</data>
+	<data name="MainMenu.AchievementChapter2" xml:space="preserve">
+		<value>Chapitre 2</value>
+	</data>
+	<data name="MainMenu.AchievementChapter2Desc" xml:space="preserve">
+		<value>Débloquer le chapitre 2</value>
+	</data>
+	<data name="MainMenu.AchievementCollectablesCollected" xml:space="preserve">
+		<value>Vies réclamées</value>
+	</data>
+	<data name="MainMenu.AchievementCollector" xml:space="preserve">
+		<value>Collectionneur</value>
+	</data>
+	<data name="MainMenu.AchievementDiamondsCollected" xml:space="preserve">
+		<value>% alimenté</value>
+	</data>
+	<data name="MainMenu.AchievementDucky" xml:space="preserve">
+		<value>À la rencontre des canards</value>
+	</data>
+	<data name="MainMenu.AchievementDuckyDesc" xml:space="preserve">
+		<value>Coin coin</value>
+	</data>
+	<data name="MainMenu.AchievementEaten" xml:space="preserve">
+		<value>Mangé</value>
+	</data>
+	<data name="MainMenu.AchievementExplorer" xml:space="preserve">
+		<value>Explorateur</value>
+	</data>
+	<data name="MainMenu.AchievementLifeHoarder" xml:space="preserve">
+		<value>Collectioneur de Vie</value>
+	</data>
+	<data name="MainMenu.AchievementLives" xml:space="preserve">
+		<value>Vies</value>
+	</data>
+	<data name="MainMenu.AchievementLongRun" xml:space="preserve">
+		<value>Aucun défi pour moi</value>
+	</data>
+	<data name="MainMenu.AchievementLongRunTittle" xml:space="preserve">
+		<value>Longue course</value>
+	</data>
+	<data name="MainMenu.AchievementPowerUp" xml:space="preserve">
+		<value>Amélioration</value>
+	</data>
+	<data name="MainMenu.Achievements" xml:space="preserve">
+		<value>Accomplissements</value>
+	</data>
+	<data name="MainMenu.AchievementUnscathed" xml:space="preserve">
+		<value>Indemne</value>
+	</data>
+	<data name="MainMenu.AchievementWormFood" xml:space="preserve">
+		<value>Nourriture de Ver</value>
+	</data>
+	<data name="MainMenu.Activate" xml:space="preserve">
+		<value>Activer</value>
+	</data>
+	<data name="MainMenu.Active" xml:space="preserve">
+		<value>Actif</value>
+	</data>
+	<data name="MainMenu.AdUnlock" xml:space="preserve">
+		<value>Ouvrir?</value>
+	</data>
+	<data name="MainMenu.AreYouStuck" xml:space="preserve">
+		<value>Vous êtes bloqué ?
+Accédez à tous les niveaux dès maintenant !</value>
+	</data>
+	<data name="MainMenu.Back" xml:space="preserve">
+		<value>Retour</value>
+	</data>
+	<data name="MainMenu.Best" xml:space="preserve">
+		<value>Meilleur</value>
+	</data>
+	<data name="MainMenu.Bolts" xml:space="preserve">
+		<value>Écrous</value>
+	</data>
+	<data name="MainMenu.BreakStuff" xml:space="preserve">
+		<value>Les éléments cassés</value>
+	</data>
+	<data name="MainMenu.Buy" xml:space="preserve">
+		<value>Achetez !</value>
+	</data>
+	<data name="MainMenu.ChallengeDescriptionBreakables" xml:space="preserve">
+		<value>Cassez des verres, n'en ratez pas</value>
+	</data>
+	<data name="MainMenu.ChallengeDescriptionCollect" xml:space="preserve">
+		<value>Récupérez des piles en une seule fois</value>
+	</data>
+	<data name="MainMenu.ChallengeDescriptionDistance" xml:space="preserve">
+		<value>Tenez la distance</value>
+	</data>
+	<data name="MainMenu.ChallengeInfoMissingBolts" xml:space="preserve">
+		<value>Quelques écrous manquants, récupérez-en plus en relevant des défis</value>
+	</data>
+	<data name="MainMenu.ChallengeLocked" xml:space="preserve">
+		<value>Défi verrouillé</value>
+	</data>
+	<data name="MainMenu.Challenges" xml:space="preserve">
+		<value>Défis</value>
+	</data>
+	<data name="MainMenu.Chapter" xml:space="preserve">
+		<value>Chapitre</value>
+	</data>
+	<data name="MainMenu.Chapter2Locked" xml:space="preserve">
+		<value>Chapitre 2 verrouillé</value>
+	</data>
+	<data name="MainMenu.Chapter2Locked2" xml:space="preserve">
+		<value>(Terminer le premier chapitre pour débloquer)</value>
+	</data>
+	<data name="MainMenu.ChapterGoto" xml:space="preserve">
+		<value>Chapitre</value>
+	</data>
+	<data name="MainMenu.Characters" xml:space="preserve">
+		<value>Personnages</value>
+	</data>
+	<data name="MainMenu.CoinsCollected" xml:space="preserve">
+		<value>Batteries</value>
+	</data>
+	<data name="MainMenu.Completed" xml:space="preserve">
+		<value>Complet</value>
+	</data>
+	<data name="MainMenu.Connect" xml:space="preserve">
+		<value>Relier</value>
+	</data>
+	<data name="MainMenu.ConnectionLost" xml:space="preserve">
+		<value>Connexion perdue. Veuillez réessayer.</value>
+	</data>
+	<data name="MainMenu.Continue" xml:space="preserve">
+		<value>Continuer</value>
+	</data>
+	<data name="MainMenu.ContinueCount" xml:space="preserve">
+		<value>Les sauvegardes</value>
+	</data>
+	<data name="MainMenu.Credits" xml:space="preserve">
+		<value>Remerciements</value>
+	</data>
+	<data name="MainMenu.DeathCount" xml:space="preserve">
+		<value>Morts</value>
+	</data>
+	<data name="MainMenu.Disconnect" xml:space="preserve">
+		<value>Débranchez</value>
+	</data>
+	<data name="MainMenu.Effects" xml:space="preserve">
+		<value>Effets sonores</value>
+	</data>
+	<data name="MainMenu.Exit" xml:space="preserve">
+		<value>Sortir</value>
+	</data>
+	<data name="MainMenu.Follow" xml:space="preserve">
+		<value>Suivre</value>
+	</data>
+	<data name="MainMenu.ForTheChallenge" xml:space="preserve">
+		<value>Bonus : +20000 écrous pour le mode défi !</value>
+	</data>
+	<data name="MainMenu.Free" xml:space="preserve">
+		<value>Gratuit</value>
+	</data>
+	<data name="MainMenu.FullGame" xml:space="preserve">
+		<value>Partie complète</value>
+	</data>
+	<data name="MainMenu.FullGameUnlocked" xml:space="preserve">
+		<value>Le jeu déverrouillé</value>
+	</data>
+	<data name="MainMenu.GameLoaded" xml:space="preserve">
+		<value>Jeu chargé</value>
+	</data>
+	<data name="MainMenu.GameSaved" xml:space="preserve">
+		<value>Jeu sauvé</value>
+	</data>
+	<data name="MainMenu.Language" xml:space="preserve">
+		<value>Langue</value>
+	</data>
+	<data name="MainMenu.Locked" xml:space="preserve">
+		<value>Bloqué</value>
+	</data>
+	<data name="MainMenu.Map.TotalEnergyRestored" xml:space="preserve">
+		<value>Energie Total Restauré</value>
+	</data>
+	<data name="MainMenu.Music" xml:space="preserve">
+		<value>Musique</value>
+	</data>
+	<data name="MainMenu.NA" xml:space="preserve">
+		<value>s/o</value>
+	</data>
+	<data name="MainMenu.NextTarget" xml:space="preserve">
+		<value>Niveau à atteindre</value>
+	</data>
+	<data name="MainMenu.NoAds" xml:space="preserve">
+		<value>Pas de pub</value>
+	</data>
+	<data name="MainMenu.Notification.CollectMoreDiamonds" xml:space="preserve">
+		<value>Plus de force nécessaire!</value>
+	</data>
+	<data name="MainMenu.Notification.PassPreviousBoss" xml:space="preserve">
+		<value>Pour débloquer passez 1500m au niveau patron précédent</value>
+	</data>
+	<data name="MainMenu.Notification.PassPreviousStageFirst" xml:space="preserve">
+		<value>Passez étape précédente</value>
+	</data>
+	<data name="MainMenu.Off" xml:space="preserve">
+		<value>Arrêt</value>
+	</data>
+	<data name="MainMenu.On" xml:space="preserve">
+		<value>Marche</value>
+	</data>
+	<data name="MainMenu.OrWait" xml:space="preserve">
+		<value>Ou attendre</value>
+	</data>
+	<data name="MainMenu.OutOfTries" xml:space="preserve">
+		<value>Hors Chances !</value>
+	</data>
+	<data name="MainMenu.Play" xml:space="preserve">
+		<value>Jouer</value>
+	</data>
+	<data name="MainMenu.PlayTutorial" xml:space="preserve">
+		<value>Didacticiel</value>
+	</data>
+	<data name="MainMenu.Powered" xml:space="preserve">
+		<value>Alimenté</value>
+	</data>
+	<data name="MainMenu.Quit" xml:space="preserve">
+		<value>Quitter ?</value>
+	</data>
+	<data name="MainMenu.RateUs" xml:space="preserve">
+		<value>Évaluez-nous!</value>
+	</data>
+	<data name="MainMenu.RateUsAskLater" xml:space="preserve">
+		<value>Demandez-moi plus tard</value>
+	</data>
+	<data name="MainMenu.RateUsHeader" xml:space="preserve">
+		<value>Aimez-vous ce jeu?</value>
+	</data>
+	<data name="MainMenu.RateUsNoThanks" xml:space="preserve">
+		<value>Non merci</value>
+	</data>
+	<data name="MainMenu.RateUsRate" xml:space="preserve">
+		<value>Évaluez maintenant</value>
+	</data>
+	<data name="MainMenu.RateUsText" xml:space="preserve">
+		<value>Prenez un moment et évaluez Power Hover!</value>
+	</data>
+	<data name="MainMenu.SavedGames" xml:space="preserve">
+		<value>Jeux sauvegardés</value>
+	</data>
+	<data name="MainMenu.RestorePurchases" xml:space="preserve">
+		<value>Restaurer des achats</value>
+	</data>
+	<data name="MainMenu.Settings" xml:space="preserve">
+		<value>Options</value>
+	</data>
+	<data name="MainMenu.Start" xml:space="preserve">
+		<value>Commencer</value>
+	</data>
+	<data name="MainMenu.Statistics" xml:space="preserve">
+		<value>Statistiques</value>
+	</data>
+	<data name="MainMenu.Stats" xml:space="preserve">
+		<value>[ Stats ]</value>
+	</data>
+	<data name="MainMenu.Store" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MainMenu.Stuck" xml:space="preserve">
+		<value>Bloqué ?</value>
+	</data>
+	<data name="MainMenu.ThankYou" xml:space="preserve">
+		<value>Merci !</value>
+	</data>
+	<data name="MainMenu.TimePlayed" xml:space="preserve">
+		<value>Le Temps Joué</value>
+	</data>
+	<data name="MainMenu.ToBeContinued" xml:space="preserve">
+		<value>À suivre...</value>
+	</data>
+	<data name="MainMenu.TotalScore" xml:space="preserve">
+		<value>KWH TOTAL</value>
+	</data>
+	<data name="MainMenu.Tries" xml:space="preserve">
+		<value>Chances</value>
+	</data>
+	<data name="MainMenu.TriesLeft" xml:space="preserve">
+		<value>Chances restantes</value>
+	</data>
+	<data name="MainMenu.Unlock" xml:space="preserve">
+		<value>Ouvrir?</value>
+	</data>
+	<data name="MainMenu.UnlockFullGame" xml:space="preserve">
+		<value>Ouvrir?</value>
+	</data>
+	<data name="MainMenu.UnlockNow" xml:space="preserve">
+		<value>Débloquer maintenant !</value>
+	</data>
+	<data name="MainMenu.UnlockWith" xml:space="preserve">
+		<value>Déverrouiller avec</value>
+	</data>
+	<data name="MainMenu.WatchVideo" xml:space="preserve">
+		<value />
+	</data>
+	<data name="MainMenu.WorldRank" xml:space="preserve">
+		<value>Rang</value>
+	</data>
+	<data name="Map.EnergyItem.CharacterDescription" xml:space="preserve">
+		<value>Débloquer un nouveau personnage</value>
+	</data>
+	<data name="Map.EnergyItem.CharacterTitle" xml:space="preserve">
+		<value>Robo mobile</value>
+	</data>
+	<data name="Map.EnergyItem.LifeGeneratorDescription" xml:space="preserve">
+		<value>Recueillir une vie supplémentaire de temps en temps</value>
+	</data>
+	<data name="Map.EnergyItem.LifeGeneratorTitle" xml:space="preserve">
+		<value>Générateur de vie</value>
+	</data>
+	<data name="Map.EnergyItem.LifesaverDescription" xml:space="preserve">
+		<value>+1 sauvegarde</value>
+	</data>
+	<data name="Map.EnergyItem.LifesaverTitle" xml:space="preserve">
+		<value>Continuer après la fin du jeu!</value>
+	</data>
+	<data name="Map.EnergyItem.MagnetDescription" xml:space="preserve">
+		<value>Plus de puissance pour l'aimant de la batterie!</value>
+	</data>
+	<data name="Map.EnergyItem.MagnetTitle" xml:space="preserve">
+		<value>Booster d'aimant</value>
+	</data>
+	<data name="Map.EnergyItem.StartLifeDescription" xml:space="preserve">
+		<value>Augmente votre compte de vie de base par un.</value>
+	</data>
+	<data name="Map.EnergyItem.StartLifeTitle" xml:space="preserve">
+		<value>vie de base +1</value>
+	</data>
+	<data name="Map.EnergyItem.TutorialDescription" xml:space="preserve">
+		<value>L'alimenter et obtenir une vie supplémentaire!</value>
+	</data>
+	<data name="Map.EnergyItem.TutorialTitle" xml:space="preserve">
+		<value>Bienvenue au Village Robo</value>
+	</data>
+	<data name="Map.ObjectTip.Character" xml:space="preserve">
+		<value>Un nouveau robot activé, sélectionnez-le à partir du menu +</value>
+	</data>
+	<data name="Map.ObjectTip.LifeGenerator" xml:space="preserve">
+		<value>Votre vie supplémentaire est en train d'être générée, veuillez patienter s'il vous plaît...</value>
+	</data>
+	<data name="Map.ObjectTip.Lifesaver" xml:space="preserve">
+		<value>Cela vous permet de continuer, il est bon d'avoir une sauvegarde!</value>
+	</data>
+	<data name="Map.ObjectTip.Magnet" xml:space="preserve">
+		<value>Booster d'aimant de batterie, vous pouvez collecter les batteries plus facilement!</value>
+	</data>
+	<data name="Map.ObjectTip.StartLife" xml:space="preserve">
+		<value>Si vous devez recommencer, ce bâtiment augmente votre comte de vie de base.</value>
+	</data>
+	<data name="PopUp.Next" xml:space="preserve">
+		<value>Suivant</value>
+	</data>
+	<data name="PopUp.Ok" xml:space="preserve">
+		<value>OK</value>
+	</data>
+	<data name="Tutorial.Boss.One" xml:space="preserve">
+		<value>Cela est une étape de PATRON! Vous avez besoin de survivre au moins 1000m pour passer à l'étape suivante.</value>
+	</data>
+	<data name="Tutorial.Energy200" xml:space="preserve">
+		<value>Bon travail! La force totale de village est maintenant plus de 500kWh! Continuez à alimenter des choses pour accéder à la première étape de patron!</value>
+	</data>
+	<data name="Tutorial.EnergyItem" xml:space="preserve">
+		<value>Alimenter les trucs au village pour obtenir des informations et mises à jour!</value>
+	</data>
+	<data name="Tutorial.EnergyItem.Collected" xml:space="preserve">
+		<value>Or, cela est un très joli signe!Rappelez-vous d'alimenter les choses pour plus d'informations et des mises à niveau!</value>
+	</data>
+	<data name="Tutorial.KillInfo.One" xml:space="preserve">
+		<value>OUPS! Vous vous êtes écrasé!\nVoir le cœur sur le coin supérieur gauche?\nVoilà votre compteur de vie.</value>
+	</data>
+	<data name="Tutorial.KillInfo.Two" xml:space="preserve">
+		<value>Si vous avez des vies restantes, vous recommencez à partir du dernier point de contrôle activé.</value>
+	</data>
+	<data name="Tutorial.OffScreenInfo" xml:space="preserve">
+		<value>Vous devez rester dans l'écran!</value>
+	</data>
+	<data name="Tutorial.One" xml:space="preserve">
+		<value>Le voleur a laissé tomber quelques batteries, suivez la trace, ramassez l'énergie!</value>
+	</data>
+	<data name="Tutorial.Two" xml:space="preserve">
+		<value>Le voleur est là! Nous avons rattrapé le voleur! Attention, il peut avoir de mauvaises surprises dans ce sac à dos!</value>
+	</data>
+	<data name="TutorialLevel.Completed" xml:space="preserve">
+		<value>Bon travail! Maintenant atteindre ce lecteur de musique portable pour plus d'information!</value>
+	</data>
+	<data name="TutorialLevel.Five" xml:space="preserve">
+		<value>Les grinds sont bleus, mais amusants! Vous glisserez automatiquement sur toutes les surfaces que l'on peut glisser, montez juste sur elles!</value>
+	</data>
+	<data name="TutorialLevel.Four" xml:space="preserve">
+		<value>Vous sauterez automatiquement à partir des rampes et des drops. Ramasser les batteries!</value>
+	</data>
+	<data name="TutorialLevel.One" xml:space="preserve">
+		<value>Appuyez sur le côté gauche [l] ou droite [r] de l'écran pour vous déplacer.</value>
+	</data>
+	<data name="TutorialLevel.Three" xml:space="preserve">
+		<value>Ramassez les batteres lorsque vous les voyez.</value>
+	</data>
+	<data name="TutorialLevel.Two" xml:space="preserve">
+		<value>Trouvez votre chemin vers le point de contrôle. Attention aux murs!</value>
+	</data>
+	<data name="TutorialLevel.Welcome" xml:space="preserve">
+		<value>Bienvenue à Power Hover! Je suis ici pour vous aider à démarrer! Allons-y!</value>
+	</data>
+	<data name="UpgradeMenu.Lives" xml:space="preserve">
+		<value>Vies</value>
+	</data>
+	<data name="UpgradeMenu.LiveSavers" xml:space="preserve">
+		<value>Les sauvegardes</value>
+	</data>
+	<data name="UpgradeMenu.LivesOnContinue" xml:space="preserve">
+		<value>Compte de vie de base</value>
+	</data>
+	<data name="UpgradeMenu.Magnet" xml:space="preserve">
+		<value>Aimant</value>
+	</data>
+	<data name="UpgradeMenu.Notification.NotEnoughtPoints" xml:space="preserve">
+		<value>Plus d'énergie nécessaire! Obtenez-en plus en passant les niveaux.</value>
+	</data>
+</root>

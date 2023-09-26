@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd123272dc8b1fd7ddc697de29d5b5f, type: 3}
+  m_Name: IOSNativeSettings_0
+  m_EditorClassIdentifier: 
+  EnableGameCenterAPI: 1
+  EnableInAppsAPI: 0
+  EnableCameraAPI: 0
+  EnableSocialSharingAPI: 1
+  EnablePickerAPI: 0
+  EnableMediaPlayerAPI: 0
+  EnableReplayKit: 1
+  EnableCloudKit: 1
+  EnableSoomla: 0
+  EnableGestureAPI: 1
+  EnableForceTouchAPI: 0
+  EnablePushNotificationsAPI: 0
+  EnableContactsAPI: 0
+  EnableAppEventsAPI: 0
+  EnableUserNotificationsAPI: 0
+  EnablePermissionAPI: 0
+  AppleId: 1034773723
+  ToolbarIndex: 0
+  ExpandMoreActionsMenu: 1
+  ExpandModulesSettings: 1
+  InAppsEditorTesting: 1
+  CheckInternetBeforeLoadRequest: 0
+  PromotedPurchaseSupport: 1
+  TransactionsHandlingMode: 0
+  DefaultStoreProductsView: []
+  InAppProducts: []
+  ShowStoreKitProducts: 1
+  Leaderboards: []
+  Achievements: []
+  UseGCRequestCaching: 0
+  UsePPForAchievements: 0
+  AutoLoadUsersSmallImages: 0
+  AutoLoadUsersBigImages: 0
+  ShowLeaderboards: 1
+  ShowAchievementsParams: 1
+  AdEditorTesting: 1
+  EditorFillRateIndex: 4
+  EditorFillRate: 100
+  MaxImageLoadSize: 512
+  JPegCompressionRate: 0.8
+  GalleryImageFormat: 1
+  RPK_iPadViewType: 0
+  CameraUsageDescription: for making pictures
+  PhotoLibraryUsageDescription: for taking pictures
+  AppleMusicUsageDescription: for playing music
+  ContactsUsageDescription: for contacts reading
+  UrlTypes: []
+  ApplicationQueriesSchemes: []
+  ForceTouchMenu: []
+  DisablePluginLogs: 1
+  SoomlaDownloadLink: 687474703a2f2f676f6f2e676c2f374c5977756a
+  SoomlaDocsLink: 68747470733a2f2f676f6f2e676c2f4a466b704e61
+  SoomlaGameKey: 
+  SoomlaEnvKey: 
+  OneSignalEnabled: 0
+  OneSignalDocsLink: 68747470733a2f2f676f6f2e676c2f526f79747936

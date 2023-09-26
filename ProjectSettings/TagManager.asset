@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Jump
+  - Ceiling
+  - AI
+  - Ground
+  - JumpSpecial
+  - RotatingLand
+  - Grind
+  - Enemy
+  - Wall
+  - Boost
+  - Pipe
+  - Projectile
+  - Breakable
+  - Explosive
+  - Launcher
+  - Sand
+  - Asfalt
+  - JumpSpring
+  - Elevator
+  - Shadow
+  - JumpSmall
+  - Water
+  - PlayerCollectables
+  - ExtraLife
+  - CutsceneExtra
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Trigger
+  - Level
+  - Grind
+  - HitSki
+  - PlayerLimits
+  - Player
+  - NoColorCorrection
+  - Ground
+  - Skybox
+  - Coins
+  - Planks
+  - MapObjects
+  - PopUp
+  - Overlay
+  - RootObjects
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
